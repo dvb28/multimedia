@@ -1,0 +1,66 @@
+$primaryColor: #0264c7;
+$grayColor: #999999;
+$whiteColor: #fff;
+$blackColor: #000;
+$bgColor: rgba(0, 0, 0, 0.025);
+$navbarPrevHeight: 87px;
+$navbarHeight: 66px;
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.thisBtn {
+    background-color: $primaryColor;
+    border-radius: 30px;
+    color: $whiteColor;
+    border: 0;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 10px 30px;
+    &:hover {
+        cursor: pointer;
+        color: $whiteColor;
+        background: #007DFA;
+    }
+}
+
+
+.space-line {
+    h2:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 12px;
+        width: 110px;
+        height: 1px;
+        background-color: #d6dbe2;
+    }
+    h2:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 12px;
+        width: 40px;
+        height: 1px;
+        background-color: #87e1ff;
+    }
+    
+    &.text-center h2:before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &.text-center h2:after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &.text-right h2:before {
+        left: auto;
+        right: 0;
+    }
+    &.text-right h2:after {
+        left: auto;
+        right: 0;
+    }
+}
+

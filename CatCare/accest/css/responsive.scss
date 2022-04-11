@@ -1,0 +1,72 @@
+@media (max-width: 975px) {
+    .nav-bg {
+        height: calc($navbarHeight - 0px)!important;
+        transform: translateY(0)!important;
+        background-color: $whiteColor!important; 
+        box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1)!important;
+    }
+    .navbar-nav {
+        background: #fff;
+    }
+}
+@media (max-width: 991.98px) {
+    #slider .slider__intro .slider__intro--title{
+        font-size: 2rem!important;
+    }
+
+    #slider .slider__intro--title {
+        margin-top: 30%;
+    }
+
+    #slider .slider__image--sub {
+        width: 80%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #slider .slider__image--primary {
+        transform: rotate(0deg)!important;
+    }
+    #slider .slider__image--sub {
+        display: none;
+    }
+}
+
+// Section
+@media (min-width: 768px) {
+    .space-line h2::after {
+        bottom: 17px;
+    }
+    .space-line h2::before {
+        bottom: 17px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .space-line h2:after {
+        bottom: 25px;
+    }
+    .space-line h2::before {
+        bottom: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+    .space-line h2 {
+        padding-bottom: 20px;
+    }
+}
+@media (min-width: 768px) {
+    .space-line h2 {
+        padding-bottom: 30px;
+    }
+}
+@media (min-width: 992px) {
+    .space-line h2 {
+        padding-bottom: 40px;
+    }
+}
